@@ -26,8 +26,7 @@ class Main extends Component {
         this.setState({loading: true});
         fetch(
             `https://www.omdbapi.com/?apikey=${API_KEY}&s=${str}${
-                type !== "all" ? `&type=${type}` : ""
-            }`
+                type !== "all" ? `&type=${type}` : ""}`
         )
             .then((response) => response.json())
             .then((data) => this.setState({movies: data.Search, loading: false}))
