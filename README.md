@@ -1,6 +1,7 @@
 # Simple React Movies Project
 
-[Demo] (https://kyrylsherstobaiev.github.io/simple_react_movie_project)
+[DEMO](https://kyrylsherstobaiev.github.io/simple_react_movie_project)
+
 ### Use React without hooks.
 
 This is a simple project with movies db which have used free MOVIES API. We should get a authorized key-code to get db
